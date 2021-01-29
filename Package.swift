@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "BottomPopup",
     platforms: [
-        .macOS(.v10_12), .iOS(.v10),
+        .macOS(.v10_12), .iOS(.v13),
     ],
     products: [
         .library(name: "BottomPopup", targets: ["BottomPopup"]),
